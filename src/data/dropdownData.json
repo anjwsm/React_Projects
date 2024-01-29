@@ -1,0 +1,34 @@
+{
+    "dropdownItems" : [
+        {
+            "id" : 1 ,
+          "src" : "../src/assets/dropdown-images/profile.png",
+          "text" : "My Profile"
+        },
+        {
+            "id" : 2 ,
+            "src" : "../src/assets/dropdown-images/edit.png",
+            "text" : "Edit Profile"
+        },
+        {
+            "id" : 3 ,
+            "src" : "../src/assets/dropdown-images/inbox.png",
+            "text" : "Inbox"
+        },
+        {
+            "id" : 4 ,
+            "src" : "../src/assets/dropdown-images/settings.png",
+            "text" : "Settings"
+        },
+        {
+            "id" : 5 ,
+            "src" : "../src/assets/dropdown-images/help.png",
+            "text" : "Help"
+        },
+        {
+            "id" : 6 ,
+            "src" : "../src/assets/dropdown-images/logout.png",
+            "text" : "Log Out"
+        }
+    ]
+}

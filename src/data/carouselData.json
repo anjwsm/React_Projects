@@ -1,0 +1,24 @@
+{
+   "slides" :[
+    {
+        "src" : "../src/assets/vegetarian.avif" ,
+        "alt" : " image 1 for carousel"
+    },
+    {
+        "src" : "../src/assets/pizza.avif" ,
+        "alt" : " image 2 for carousel"
+    },
+    {
+        "src" : "../src/assets/icecream.avif" ,
+        "alt" : " image 3 for carousel"
+    },
+    {
+        "src" : "../src/assets/coffee.avif" ,
+        "alt" : " image 4 for carousel"
+    },
+    {
+        "src" : "../src/assets/cake.avif" ,
+        "alt" : " image 5 for carousel"
+    }
+   ]
+}
