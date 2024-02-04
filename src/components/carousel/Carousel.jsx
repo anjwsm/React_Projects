@@ -31,7 +31,7 @@ const Carousel = ({data , autoplayInterval = 2000 }) =>{
 
   return (
     <div className='carousel'>
-       <div className='arrow arrow-left' onClick={prevSlide}><img src='../src/assets/arrowback.svg'/></div>
+       <div className='arrow arrow-left' onClick={prevSlide}><img src='../src/assets/carousel-images/arrowback.svg'/></div>
         {data.map((item , idx)  => {
             return <img 
             src={item.src} alt={item.alt} key={idx} 
@@ -40,7 +40,7 @@ const Carousel = ({data , autoplayInterval = 2000 }) =>{
         })
             
         }
-        <div className='arrow arrow-right' onClick={nextSlide}><img src='../src/assets/arrowforward.svg'/></div>
+        <div className='arrow arrow-right' onClick={nextSlide}><img src='../src/assets/carousel-images/arrowforward.svg'/></div>
         <span className='indicators'>
             {data.map((_ , idx)=>{
                 return <button

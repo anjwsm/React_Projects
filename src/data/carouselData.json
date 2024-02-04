@@ -1,23 +1,23 @@
 {
    "slides" :[
     {
-        "src" : "../src/assets/vegetarian.avif" ,
+        "src" : "../src/assets/carousel-images/vegetarian.avif" ,
         "alt" : " image 1 for carousel"
     },
     {
-        "src" : "../src/assets/pizza.avif" ,
+        "src" : "../src/assets/carousel-images/pizza.avif" ,
         "alt" : " image 2 for carousel"
     },
     {
-        "src" : "../src/assets/icecream.avif" ,
+        "src" : "../src/assets/carousel-images/icecream.avif" ,
         "alt" : " image 3 for carousel"
     },
     {
-        "src" : "../src/assets/coffee.avif" ,
+        "src" : "../src/assets/carousel-images/coffee.avif" ,
         "alt" : " image 4 for carousel"
     },
     {
-        "src" : "../src/assets/cake.avif" ,
+        "src" : "../src/assets/carousel-images/cake.avif" ,
         "alt" : " image 5 for carousel"
     }
    ]
