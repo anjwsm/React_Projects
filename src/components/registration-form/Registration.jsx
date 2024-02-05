@@ -32,11 +32,11 @@ function Registration() {
       <pre>{(flag)?<h2 className="ui-defined">Hello  {inputData.name} , You have successfully registered</h2> : " " }</pre>
       <form className="form-wrapper"  onSubmit={handleSubmit}>
        <div className="header"><h1>Registration Form</h1></div>
-       <input type="text" placeholder="Enter Your Name" name="name" value={inputData.name} onChange={handleData}></input>
+       <input type="text" placeholder="Enter Your Name" name="name" value={inputData.name} onChange={handleData}/>
        
-       <input type="email" placeholder="Enter Your Email" name="email" value={inputData.email}  onChange={handleData}></input>
+       <input type="text" placeholder="Enter Your Email" name="email" value={inputData.email}  onChange={handleData}/>
        
-       <input  type="password"  placeholder="Enter Your Password"  name="password" value={inputData.password}  onChange={handleData} ></input>
+       <input  type="text"  placeholder="Enter Your Password"  name="password" value={inputData.password}  onChange={handleData} />
        
     
        <button type="submit">Submit</button>

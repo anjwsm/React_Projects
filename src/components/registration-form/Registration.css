@@ -1,10 +1,12 @@
 .form-wrapper{
-    background-color: #f2f2f2;
+    background-color: #e2e0e0;
     justify-content: center;
     width: 50%;
     margin-left: 26%;
     margin-top: 5%;
     text-align: center;
+    box-shadow: 0px 10px 8px #bab9b9;
+    border-radius: 4px;
 }
 .form-wrapper input{
     width: 80%;
@@ -27,12 +29,12 @@
     cursor: pointer;
 }
 .form-wrapper button:hover{
-    background-color: #45a049;
+    background-color: #336135;
 }
 
 .form-wrapper .header h1{
     width: 100%;
-    background-color: blue;
+    background-color: rgb(5, 5, 90);
     padding: 1px 20px;
     color: rgb(236, 228, 228);
 }
@@ -43,4 +45,5 @@
     width: 50%;
     padding: 20px 30px;
     margin-top: 5%;
+    color: antiquewhite;
 }
