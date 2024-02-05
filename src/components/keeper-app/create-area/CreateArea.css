@@ -1,4 +1,4 @@
-form {
+.wrapper-create-area form {
     position: relative;
     width: 480px;
     margin: 30px auto 20px auto;
@@ -7,8 +7,8 @@ form {
     border-radius: 7px;
     box-shadow: 0 1px 5px rgb(138, 137, 137);
   }
-  form input,
-  form textarea {
+  .wrapper-create-area form input,
+  .wrapper-create-area form textarea {
     width: 100%;
     border: none;
     padding: 4px;
@@ -17,7 +17,7 @@ form {
     resize: none;
     outline: none;
   }
-  form button {
+  .wrapper-create-area form button {
     position: absolute;
     right: 18px;
     bottom: -18px;

@@ -9,45 +9,17 @@ import  CreateArea from './components/keeper-app/create-area/CreateArea';
 import  Note  from './components/keeper-app/note/Note';
 import  {useEffect, useState } from 'react';
 
+import KeeperApp from './components/keeper-app/KeeperApp/KeeperApp';
 function App() {
 
-  const [notes , setNotes] = useState([]) ;
-
-  function addNote(note) {
-    const nextNotes= [...notes,note]
-    setNotes(nextNotes);
-  }
-
-  function deleteNote(id) {
-    const nextState=notes.filter((noteItem, index) => {
-      return index !== id;
-    });
-    setNotes(nextState);
-  }
-    
-
-  useEffect(() => {
-    console.log('notes---->',notes)
-  }, [notes]);
+  
 
   return <>
     {/* <Carousel data = {data.slides} autoplayInterval={2000} /> */}
     {/*<Dropdown  data2 = {dropdownItems}/>*/}
+    {/* <KeeperApp/> */}
 
-    <Header/>
-    <CreateArea onAdd={addNote} name='notekkper'/>
-    {notes.map((noteItem, index) => {
-             return (
-            <Note 
-             key={index} 
-             id={index}
-             title={noteItem.title}
-             content={noteItem.content}
-             onDelete={deleteNote}
-            />
-              );
-        })}
-    <Footer/>
+   
    
 
   </>

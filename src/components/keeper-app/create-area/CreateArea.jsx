@@ -47,7 +47,7 @@ function CreateArea(props){
       
 
     return(
-        <div>
+        <div className="wrapper-create-area">
           <form>
              <input
                name="title"
