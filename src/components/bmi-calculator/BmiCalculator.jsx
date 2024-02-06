@@ -32,7 +32,12 @@ function BmiCalculator(){
     }
 
     const reload = (e) => {
-        window.location.reload();
+
+        setBmi('')
+        setMessage('')
+        setHeight('')
+        setWeight('')
+        // window.location.reload();
        
     }
     return(
@@ -42,15 +47,15 @@ function BmiCalculator(){
             <form onSubmit={calculateBmi}>
              <div>
                 <label > Weight(kg) : </label>
-                <input type="text" placeholder="Enter Your weight" value={weight}  onChange={(e) => setWeight (e.target.value)}></input>
+                <input type="number" placeholder="Enter Your weight" value={weight}  onChange={(e) => setWeight (e.target.value)}></input>
              </div>
              <div>
                 <label> Height (metre) : </label>
-                <input type="text" placeholder="Enter your height" value={height} onChange={(e)=> setHeight( e.target.value)} ></input>
+                <input type="number" placeholder="Enter your height" value={height} onChange={(e)=> setHeight( e.target.value)} ></input>
              </div>
              <div className="btn-div">
              <button type="submit" className="btn"> Submit</button>
-             <button type="submit" onClick={reload}  className="btn reload"> Reload</button>
+             <button type='reset' onClick={reload}  className="btn reload"> Reload</button>
              </div>
              <div>
                 <h3>Your BMI is {bmi}</h3>

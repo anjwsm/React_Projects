@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import "./Registration.css";
 
 function Registration() {
-   const data = { name:"" , password: "" , email:""}
-   const [inputData , setInputData] = useState(data) ;
+  
+   const [inputData , setInputData] = useState({ name:"" , password: "" , email:""}) ;
    const [flag , setFlag] = useState(false);
 
    useEffect(()=>{
@@ -11,6 +11,7 @@ function Registration() {
    } , [flag]);
 
    function handleData(e){
+    console.log(e.target.name, e.target.value)
     setInputData({...inputData , [e.target.name] : e.target.value})
     console.log(inputData)
    }
