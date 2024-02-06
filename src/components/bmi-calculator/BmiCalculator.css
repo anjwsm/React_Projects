@@ -11,13 +11,14 @@
 
 .bmi-calculator-wrapper h1{
     width: 100%;
-    background-color: rgb(199, 132, 25);
+    background-color:  #5db662;
     padding: 1px 20px;
     color: rgb(236, 228, 228);
 }
 .bmi-calculator-wrapper input {
+
     width: 80%;
-    padding: 12px 20px;
+    padding: 10px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
@@ -31,7 +32,7 @@
 }
 .bmi-calculator-wrapper button {
     width: 20%;
-    background-color: rgb(199, 132, 25);
+    background-color :  #5db662;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -39,4 +40,11 @@
     border-radius: 4px;
     cursor: pointer;
     gap: 10px;
+}
+
+.bmi-calculator-wrapper div{
+    margin-top: 15px;
+}
+.bmi-calculator-wrapper p{
+    margin-bottom: 20px;
 }
