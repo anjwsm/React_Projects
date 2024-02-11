@@ -27,7 +27,6 @@ function Registration() {
    }
 
 
-
   return (
     <>
       <pre>{(flag)?<h2 className="ui-defined">Hello  {inputData.name} , You have successfully registered</h2> : " " }</pre>

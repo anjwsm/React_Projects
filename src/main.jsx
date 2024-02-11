@@ -11,6 +11,7 @@ import data2 from './data/dropdownData.json'
 import DigitalClock from './components/digital-clock/DigitalClock.jsx'
 import Registration from './components/registration-form/Registration.jsx'
 import BmiCalculator from './components/bmi-calculator/BmiCalculator.jsx'
+import Calculator from './components/calculator/Calculator.jsx'
 
 
 const router = createBrowserRouter([ // array o fobject : {path, elemetn }
@@ -37,6 +38,10 @@ const router = createBrowserRouter([ // array o fobject : {path, elemetn }
   {
     path:"bmicalculator" ,
     element:<BmiCalculator/>
+  } ,
+  {
+    path:"calculator" ,
+    element:<Calculator/>
   }
 ]);
 
