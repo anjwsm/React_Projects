@@ -12,6 +12,7 @@ import DigitalClock from './components/digital-clock/DigitalClock.jsx'
 import Registration from './components/registration-form/Registration.jsx'
 import BmiCalculator from './components/bmi-calculator/BmiCalculator.jsx'
 import Calculator from './components/calculator/Calculator.jsx'
+import CurrencyConverter from './components/currency-converter/CurrencyConverter.jsx'
 
 
 const router = createBrowserRouter([ // array o fobject : {path, elemetn }
@@ -42,6 +43,10 @@ const router = createBrowserRouter([ // array o fobject : {path, elemetn }
   {
     path:"calculator" ,
     element:<Calculator/>
+  },
+  {
+    path:"currencyconverter" ,
+    element:<CurrencyConverter/>
   }
 ]);
 
